@@ -120,7 +120,7 @@ const App = () => {
 
       <div class="footer">
         <p>
-          Powered by OsmanVee <i class="fab fa-osi"></i>
+         V 2.0 coming soon! -  Powered by OsmanVee <i class="fab fa-osi"></i>
         </p>
       </div>
     </div>
