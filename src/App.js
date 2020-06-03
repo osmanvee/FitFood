@@ -16,7 +16,8 @@ const App = () => {
  const exampleREQ = 
  `https://api.edamam.com/search?q=chicken&app_id=${APP_ID}&app_key=${APP_KEY}`;
 
- //Passing array returned by function in this array we initialized
+ //React Hooks
+ //First value is the placeholder, second value is the function used to update the placeholder
  const [recipes, SetRecipes] = useState([]);
  const [search, setSearch] = useState("");
  const [query, setQuery] = useState("");
@@ -127,4 +128,7 @@ const App = () => {
   );
 };
 
+/*Exporting this file component so it renders it
+in the index.js for the root div
+*/
 export default App;
